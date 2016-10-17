@@ -1,0 +1,80 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+  margin-top:50px;
+}
+
+[class*="zocial-"]:before {
+
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2.5em;
+  font-size: 1.5em;
+}
+
+a:hover [class*="zocial-"]:before {
+  color: #3d85c6;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.link{
+  font-size: 1em;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.bg_article {
+  width: 100%;
+  position: relative;
+  background-image: url("https://fortunedotcom.files.wordpress.com/2015/11/udacity.jpg");
+  background-size: cover;
+  height: 350px;
+}
+
+.bg_article article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+.logo {
+  margin-top: 2em;
+}
+
+h3.title {
+  margin-top: 0;
+}
+
+h1.title {
+  margin-top: 1.5em;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
